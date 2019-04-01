@@ -6,6 +6,12 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 
 import java.lang.reflect.Method;
 
+/**
+ * @Description 版本号匹配拦截器
+ * @author wangheng
+ * @date 2019/4/1
+ * @return
+ */
 public class CustomRequestMappingHandlerMapping extends RequestMappingHandlerMapping {
 
     @Override
